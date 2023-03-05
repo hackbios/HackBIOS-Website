@@ -112,7 +112,7 @@
     /* width: 100%; */
 }
 
-.home-register div{
+#discord-button{
     margin: 0 5px;
     padding: 5px;
     cursor: pointer;
@@ -125,7 +125,7 @@
     font-family: "Capsule Sans Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
 }
 
-.home-register div:hover{
+#discord-button:hover{
     background-color: #00C805;
 }
 
