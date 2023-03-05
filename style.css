@@ -793,9 +793,7 @@ h2 {
     border: 2px solid black ;
   }
   .sponsor-title{
-    font-size: 3rem;
-    /* background-image: linear-gradient(to right,#e05e3e,#dcf452); */
-    
+    font-size: 2.25rem;    
     display: inline-block;
     outline: 0;
     border: 0;
@@ -810,27 +808,32 @@ h2 {
     margin-top: 25px;
 }
 
-#Platinum-header,#Gold-header,#Silver-header, #Bronze-header, #Community-header{
+/* #Platinum-header,#Gold-header,#Silver-header, #Bronze-header, #Community-header{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 #Platinum-header{
-    background-image: linear-gradient(to right,#d3adad, #D96C6C);    
+    /* background-image: linear-gradient(to right,#d3adad, #D96C6C);   */
+    color: #D96C6C;  
 }
 #Gold-header{
-    background-image: linear-gradient(to right,#e05e3e,#dcf452);    
+    /* background-image: linear-gradient(to right,#e05e3e,#dcf452);     */
+    color: #FFD700;
 }
 #Silver-header{
-    background-image: linear-gradient(to right,#e8e5e5, #4c4c4c);    
+    /* background-image: linear-gradient(to right,#e8e5e5, #4c4c4c);     */
+    color: #c0c0c0;
 }
 
 #Bronze-header{
-    background-image: linear-gradient(to right, #d1a477, #cd7217);    
+    /* background-image: linear-gradient(to right, #d1a477, #cd7217);     */
+    color: #CD7F32;
 }
 
 #Community-header{
-    background-image: linear-gradient(to right, rgb(208, 241, 255), rgb(34, 187, 252));    
+    /* background-image: linear-gradient(to right, rgb(208, 241, 255), rgb(34, 187, 252));     */
+    color: #22bbfc;
 }
 
 .sponsors{
@@ -844,12 +847,12 @@ h2 {
     align-items: center;
 }
 .sponsors-item{
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 2rem;
     border: 1px solid #1b1b1b;
     border-radius: 10px;
-    height: 10rem;
-    width: 20rem;
+    height: 9rem;
+    width: 18rem;
     transition: all 0.2s ease-in-out;
     display: flex;
     justify-content: center;
