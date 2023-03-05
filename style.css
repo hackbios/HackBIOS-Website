@@ -107,10 +107,20 @@
     bottom: 20px;
     font-size: 20px;
     display: flex;
+    column-gap: 2rem;
     font-weight: 650;
     /* justify-content: center; */
     /* width: 100%; */
 }
+
+@media(max-width:566px){
+    .home-register{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
+ 
+
 
 #discord-button{
     margin: 0 5px;
@@ -790,7 +800,7 @@ h2 {
   .sponsors-container{
     text-align: center;
     background-color: var(--black);
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
   }
   .sponsor-title{
     font-size: 2.25rem;    
@@ -837,22 +847,22 @@ h2 {
 }
 
 .sponsors{
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
-    padding: 2rem 8rem 2rem 8rem;
-    align-content: center;
     display: flex;
-    column-gap: 5rem;
+    align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    padding: 2rem 0rem;
 }
 .sponsors-item{
     background-color: rgba(255, 255, 255, 0.85);
     padding: 2rem;
     border: 1px solid #1b1b1b;
     border-radius: 10px;
-    height: 9rem;
-    width: 18rem;
+    height: 8rem;
+    width: 16rem;
     transition: all 0.2s ease-in-out;
     display: flex;
     justify-content: center;
@@ -861,7 +871,7 @@ h2 {
 .sponsors-item:hover{
     cursor: pointer;
     transform: scale(1.1);
-  }  
+}  
 
 .sponsors-item img{    
     width: 100%;
