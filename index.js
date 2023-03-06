@@ -281,6 +281,55 @@ accSix.addEventListener("click", () =>{
   plusSix.classList.toggle('rotate-plus');
 })
 
+const accSeven = document.querySelector("#question7");
+const ansSeven = document.querySelector(".ans-seven");
+const plusSeven = document.querySelector("#plus-seven");
+accSeven.addEventListener("click", () =>{
+  ansSeven.classList.toggle('open-accordian');
+  plusSeven.classList.toggle('rotate-plus');
+})
+
+const accEight = document.querySelector("#question8");
+const ansEight = document.querySelector(".ans-eight");
+const plusEight = document.querySelector("#plus-eight");
+accEight.addEventListener("click", () =>{
+  ansEight.classList.toggle('open-accordian');
+  plusEight.classList.toggle('rotate-plus');
+})
+
+const accNine = document.querySelector("#question9");
+const ansNine = document.querySelector(".ans-nine");
+const plusNine = document.querySelector("#plus-nine");
+accNine.addEventListener("click", () =>{
+  ansNine.classList.toggle('open-accordian');
+  plusNine.classList.toggle('rotate-plus');
+})
+
+
+const accTen = document.querySelector("#question10");
+const ansTen = document.querySelector(".ans-ten");
+const plusTen = document.querySelector("#plus-ten");
+accTen.addEventListener("click", () =>{
+  ansTen.classList.toggle('open-accordian');
+  plusTen.classList.toggle('rotate-plus');
+})
+
+const accEleven = document.querySelector("#question11");
+const ansEleven = document.querySelector(".ans-eleven");
+const plusEleven = document.querySelector("#plus-eleven");
+accEleven.addEventListener("click", () =>{
+  ansEleven.classList.toggle('open-accordian');
+  plusEleven.classList.toggle('rotate-plus');
+})
+
+const accTwelve = document.querySelector("#question12");
+const ansTwelve = document.querySelector(".ans-twelve");
+const plusTwelve = document.querySelector("#plus-twelve");
+accTwelve.addEventListener("click", () =>{
+  ansTwelve.classList.toggle('open-accordian');
+  plusTwelve.classList.toggle('rotate-plus');
+})
+
 
 
 //tracks
