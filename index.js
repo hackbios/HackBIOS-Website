@@ -362,10 +362,18 @@ for (let i = 0; i < tracksflipcardBack.length; i++) {
 
 const showProblem1Button = document.querySelectorAll(".show-problem1-modal");
 const showProblem2Button = document.querySelectorAll(".show-problem2-modal");
+const showProblem3Button = document.querySelectorAll(".show-problem3-modal");
+const showProblem4Button = document.querySelectorAll(".show-problem4-modal");
+const showProblem5Button = document.querySelectorAll(".show-problem5-modal");
+const showProblem6Button = document.querySelectorAll(".show-problem6-modal");
 const mask1 = document.querySelector(".problem1-modal");
 const mask2 = document.querySelector(".problem2-modal");
+const mask3 = document.querySelector(".problem3-modal");
+const mask4 = document.querySelector(".problem4-modal");
+const mask5 = document.querySelector(".problem5-modal");
+const mask6 = document.querySelector(".problem6-modal");
 
-`showProblem1Button`.forEach(function (button) {
+showProblem1Button.forEach(function (button) {
   button.addEventListener("click", function () {
     mask1.classList.add("modal-active");
   });
@@ -377,11 +385,37 @@ showProblem2Button.forEach(function (button) {
   });
 });
 
+showProblem3Button.forEach(function (button) {
+  button.addEventListener("click", function () {
+    mask3.classList.add("modal-active");
+  });
+});
+
+showProblem4Button.forEach(function (button) {
+  button.addEventListener("click", function () {
+    mask4.classList.add("modal-active");
+  });
+});
+showProblem5Button.forEach(function (button) {
+  button.addEventListener("click", function () {
+    mask5.classList.add("modal-active");
+  });
+});
+
+showProblem6Button.forEach(function (button) {
+  button.addEventListener("click", function () {
+    mask6.classList.add("modal-active");
+  });
+});
 // Function for close the Modal
 
 function closeModal() {
   mask1.classList.remove("modal-active");
   mask2.classList.remove("modal-active");
+  mask3.classList.remove("modal-active");
+  mask4.classList.remove("modal-active");
+  mask5.classList.remove("modal-active");
+  mask6.classList.remove("modal-active");
 }
 
 // Call the closeModal function on the clicks/keyboard
