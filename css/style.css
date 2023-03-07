@@ -740,7 +740,8 @@ h2 {
 
 .flip-card-front:hover,
 .flip-card-back:hover {
-  box-shadow: -2px -2px 4px 0 rgb(0, 0, 0), -4px -4px 10px 0 rgb(0, 0, 0);
+  /* box-shadow: -2px -2px 4px 0 rgb(0, 0, 0), -4px -4px 10px 0 rgb(0, 0, 0); */
+  box-shadow: -2px -2px 2px 0 rgb(0, 0, 0), -2px -2px 10px 0 rgb(0, 0, 0);
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -1507,6 +1508,7 @@ h2 {
 
   transition: 0.5s ease-out;
   overflow-y: scroll;
+  border-radius: 10px;
 }
 
 .modal-body {
