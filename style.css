@@ -105,8 +105,15 @@
   display: flex;
   column-gap: 2rem;
   font-weight: 650;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* justify-content: center; */
   /* width: 100%; */
+}
+
+.home-register a {
+  width: 100%;
 }
 
 @media (max-width: 566px) {
@@ -117,8 +124,8 @@
 }
 
 #discord-button {
-  margin: 0 5px;
-  padding: 5px;
+  /* margin: 0 5px; */
+  padding: 10px;
   cursor: pointer;
   border: 1px solid;
   border-radius: 10px;
