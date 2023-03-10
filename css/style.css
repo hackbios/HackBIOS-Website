@@ -1082,6 +1082,10 @@ h2 {
   border: #00c805 1px solid;
 }
 
+#timeline-section{
+  background-color: #292b29;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   /* background-color: #161716; */
