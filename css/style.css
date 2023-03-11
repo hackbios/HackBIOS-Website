@@ -847,6 +847,11 @@ h2 {
   color: #22bbfc;
 }
 
+#Certification-header {
+  /* background-image: linear-gradient(to right, rgb(208, 241, 255), rgb(34, 187, 252));     */
+  color: #ff4238;
+}
+
 .sponsors {
   display: flex;
   align-content: center;
