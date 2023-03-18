@@ -145,6 +145,36 @@
   background-color: #00c805;
 }
 
+.register-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.home-register {
+  flex-direction: column;
+  bottom: 7px;
+}
+
+.how-to-register a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all 0.1s linear;
+}
+
+.how-to-register a:hover {
+  color: #1ddb13;
+}
+
+@media (max-width: 566px) {
+  .register-btns {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
 .prize-container {
   display: flex;
   align-items: center;
