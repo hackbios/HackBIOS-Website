@@ -175,21 +175,7 @@
   }
 }
 
-.prize-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  background-color: #00c805;
-  color: black;
-  font-family: "Capsule Sans Display", system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
-.prize-container p {
-  font-size: 20px;
-  /* font-family: var(--font-style-4); */
-  font-weight: 600;
-}
+
 /* ayush */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -638,6 +624,143 @@ h2 {
     font-size: 1.2rem;
   }
 }
+
+/* PRIZES */
+.prize-container {
+  padding: 1rem;
+  background-color: #00c805;
+  /* text-align: center; */
+  color: black;
+  font-family: "Capsule Sans Display", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.prizes-heading {
+  position: relative;
+}
+#prize-section .front-heading2 {
+  color: #101010;
+}
+#prize-section .back-heading2 {
+  color: rgba(131, 139, 131, 0.299);
+}
+
+.prizes-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 300;
+  font-family: "Bebas Neue", cursive;
+}
+.prizes-main-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.top-winner-prizes, .all-participants-prizes{
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px 3px rgba(71, 71, 71,0.6);
+  background-color: rgb(255, 255, 255);
+  height: 35rem;
+  width: 35rem;
+  }
+  .top-winner-prizes h2, .all-participants-prizes h2{
+    font-size: 2rem;
+    margin: 1rem 0 1.5rem 0;
+    text-align: center;
+  }
+  
+  .top-winner-prizes ul, .all-participants-prizes ul{
+    list-style-type: square;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    /* font-weight: 500; */
+    line-height: 2rem;
+  }
+
+  .top-winner-prizes-container,.all-participants-prizes-container{
+    border: 3px solid gold;
+    border-radius: 5px;
+    height: 100%; 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .winner-prizes-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-winner-prizes img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+
+  .all-participants-prizes img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+
+  .prize-content{
+    padding: 6px;
+    display: flex;
+    column-gap: 4rem;
+    row-gap: 2rem;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .prize-item{
+    padding: 0.7rem;
+    width: 15rem;
+    height: 14rem;
+    box-shadow: 0 0 12px 3px rgba(71, 71, 71,0.6);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* font-weight: bold; */
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  .prize-item:hover{
+    transform: scale(1.06);
+  }
+  /* .prize-item span i{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  } */
+  .prize-logo img{
+    height: 3rem;
+    margin-bottom: 0.4rem;
+  }
+  .prize-paragraph{
+    height: 7.5rem;
+  }
+
+  .prize-container hr{
+    border-color: cornsilk;
+  }
+
+  .content-bold{
+    font-weight: 600;
+    display: inline;
+  }
+
+  @media screen and (max-width: 400px) {
+    .top-winner-prizes ul, .all-participants-prizes ul{
+      font-size: 14px;
+      line-height: 2rem;
+    }
+  }
 
 /* TRACKS */
 
