@@ -677,14 +677,16 @@ h2 {
 #tracks {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--primary-color);
+  flex-direction: column;
 }
-#tracks-container {
+.tracks-container {
   margin: 60px 0;
-  max-width: 1000px;
+  max-width: 80rem;
   /* height: 150vh; */
   /* border-top: #101010 1px solid; */
-  border-bottom: #101010 1px solid;
+  /* border-bottom: #101010 1px solid; */
   /* padding: 5%; */
   display: flex;
   justify-content: center;
@@ -719,8 +721,8 @@ h2 {
 .flip-card {
   margin: 10px;
   background-color: transparent;
-  width: 270px;
-  height: 430px;
+  width: 240px;
+  height: 370px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -788,7 +790,7 @@ h2 {
 .flip-card-front p {
   /* position: absolute; */
   /* top:16%; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   /* font-weight: 600; */
 }
 /* .flip-card-front img{
@@ -811,6 +813,55 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
+/* sponsors-track */
+.sponsor-track-container{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-track-card{
+  width: 18rem;
+  height: 15.5rem;
+  font-family: "Capsule Sans Display", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 0 12px 3px rgba(71, 71, 71,0.6);
+}
+.sponsor-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+}
+.sponsor-logo img{
+  height: 100%;
+}
+.prize-money{
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(142, 152, 156);
+}
+.track-title{
+  margin: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+}
+.track-description{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
 
 /* Anurag & Hiresh */
 

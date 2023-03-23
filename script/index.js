@@ -341,7 +341,7 @@ for (let i = 0; i < tracksflipcard.length; i++) {
   });
 }
 const tracksflipcardBack = document.querySelectorAll(
-  ".flip-card-back .tracks-card-flip-sign"
+  ".flip-card-back "
 );
 // console.log(tracksflipcardBack);
 for (let i = 0; i < tracksflipcardBack.length; i++) {
