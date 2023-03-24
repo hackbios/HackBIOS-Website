@@ -758,7 +758,7 @@ h2 {
   @media screen and (max-width: 400px) {
     .top-winner-prizes ul, .all-participants-prizes ul{
       font-size: 14px;
-      line-height: 2rem;
+      line-height: 1.2rem;
     }
   }
 
